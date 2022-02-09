@@ -10,4 +10,43 @@ html {
 body {
   max-width: 320px;
   margin: auto;
+  background: black;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
+
+header {
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+  width: 100%;
+  padding: 30px;
+  box-sizing: border-box;
+  border: 2px solid white;
+  background-image: url(../img/image-code.jpg);
+  margin-top: 20px;
+}
+
+header span {
+  color:rgb(42, 252, 166);
+  font-family: 'Montserrat', sans-serif;
+}
+
+strong {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.presentation {
+  background: rgb(42, 252, 166);
+  color: black;
+  width: 100%;
+  padding: 28px;
+  padding-top: 5px;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+
+
+
+
