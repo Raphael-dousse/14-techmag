@@ -43,7 +43,7 @@ header span {
 
 strong {
   font-family: 'Montserrat', sans-serif;
-  font-size: 17px;
+  font-size: 27px;
 }
 
 header p {
@@ -95,17 +95,38 @@ span {
   border-left-width: 15px;
 }
 
+.link-index {
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgb(68, 68, 68);
+  background: rgb(68, 68, 68);
+  border-right-width: 15px;
+  border-left-width: 15px;
+}
+
 a {
   color: white;
   font-size: small;
+  Text-decoration: none;
 }
 
-a :active {
-  background: black;
+figure {
+  margin: auto;
+  box-shadow: 5px 5px 5px black;
 }
 
 figcaption {
   font-size: small;
+  padding-right: 20px;
+}
+
+footer {
+  text-align: center;
+  font-size: smaller;
+  border-width: 3px;
+  border-style: solid;
+  border-color: rgb(42, 252, 166);
+  margin-top: 20px;
 }
 
 
