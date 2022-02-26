@@ -105,6 +105,7 @@ span {
 }
 
 a {
+  
   color: white;
   font-size: small;
   Text-decoration: none;
@@ -112,12 +113,14 @@ a {
 
 figure {
   margin: auto;
-  box-shadow: 5px 5px 5px black;
+  box-shadow: 0 0 10px #33333344;
+  display: inline-block;
 }
 
 figcaption {
-  font-size: small;
-  padding-right: 20px;
+  font-size: 12px;
+  color: #333;
+  padding: 5px 10px;
 }
 
 footer {
