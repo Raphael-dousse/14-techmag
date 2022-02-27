@@ -54,8 +54,7 @@ header p {
   background: rgb(42, 252, 166);
   color: black;
   width: 100%;
-  padding: 28px;
-  padding-top: 5px;
+  padding: 5px 28px;
   box-sizing: border-box;
   margin-top: 20px;
 }
@@ -91,8 +90,7 @@ span {
   border-style: solid;
   border-color: rgb(68, 68, 68);
   background: rgb(68, 68, 68);
-  border-right-width: 15px;
-  border-left-width: 15px;
+  border: 15px 15px;
 }
 
 .link-index {
@@ -100,8 +98,7 @@ span {
   border-style: solid;
   border-color: rgb(68, 68, 68);
   background: rgb(68, 68, 68);
-  border-right-width: 15px;
-  border-left-width: 15px;
+  border: 15px 15px;
 }
 
 a {
